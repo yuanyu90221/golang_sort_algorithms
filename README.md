@@ -11,7 +11,18 @@ each time from range k to Array length -1
 swap the larger one to the back
 
 ## Quick Sort
+Seperate Array into 2 sub Arrays by pivot value 
 
+Left: all element smaller than pivot
+
+Right: all element larger than pivot
+
+swap the Right smallest index with Right
+
+Right smallest index is the position for pivot value
+
+then iterate this procedure for Left, Right sub Array until each subArray only has one element
+```
 Procedure (A, p, r):
 
 if p < r :
@@ -29,7 +40,7 @@ if p < r :
   
   Procedure(A,p, q-1)  
   Procedure(A,q+1, A.length-1)
-
+```
 
 ## Merge Sort
 
