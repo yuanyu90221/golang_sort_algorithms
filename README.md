@@ -32,15 +32,18 @@ if p < r :
 
 
 ## Merge Sort
+
 Separete Array A into 2 Array
+
 Then Merge with order
+```
 MergeSort(A, p, r):
 if p < r:
   q = Math.floor((p+r)/2)
   MergeSort(A, p , q)
   MergeSort(A, q+1, r)
   Merge(A, p, q,r)
-
+```
 ## Insertion Sort
 for each run find the insertion place for element selected
 
